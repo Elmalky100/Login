@@ -1,0 +1,54 @@
+body{
+    background-color: #24353f;
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+
+.group{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.group h1{
+    color: #17a2b8;
+}
+input{
+    background-color: transparent!important;
+     color: #fff !important; 
+}
+input:focus{
+    box-shadow:  0 0 0 0 transparent !important;
+}
+
+.btn-outline-info{
+    color: #17a2b8;
+    transition: all 0.2s;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-outline-info:focus {
+    box-shadow: 0 0 0 0.2rem rgb(23 162 184 / 50%);
+}
+a{
+    text-decoration: none;
+    transition: all 0.2s;
+}
+a:hover {
+    text-decoration: underline;
+}
+::placeholder {
+    color:#b6b6ab !important;
+    opacity: 1 ;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.navbar a{
+    text-decoration: none;
+}
